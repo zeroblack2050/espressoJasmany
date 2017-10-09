@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.jasmany.espressoandroid.Start">
+
+    <EditText
+        android:id="@+id/start_editex_text"
+        android:hint="Texto..."
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="gravity"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/star_button_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:textAllCaps="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:onClick="otherMethodToClickButtons"/>
+
+    <Button
+        android:id="@+id/star_button_cambiarActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Activity"
+        android:textAllCaps="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:onClick="otherMethodToClickButtons"/>
+
+
+    <Button
+        android:id="@+id/star_button_cambiarTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar"
+        android:textAllCaps="false"
+        android:textAlignment="gravity"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:onClick="otherMethodToClickButtons"/>
+
+    <TextView
+        android:id="@+id/star_textView_receive"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="25dp"/>
+
+</LinearLayout>
